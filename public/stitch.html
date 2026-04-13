@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Authoritative Plumber | Membership</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#d5e3fc",
+                        "tertiary-container": "#5d2500",
+                        "on-secondary-fixed-variant": "#3a485b",
+                        "inverse-on-surface": "#f1f0f4",
+                        "surface": "#faf9fd",
+                        "surface-container-low": "#f4f3f7",
+                        "inverse-primary": "#aec7f7",
+                        "background": "#faf9fd",
+                        "inverse-surface": "#2f3033",
+                        "on-tertiary-fixed-variant": "#783200",
+                        "tertiary-fixed": "#ffdbca",
+                        "surface-variant": "#e3e2e6",
+                        "tertiary": "#3b1500",
+                        "primary": "#002046",
+                        "surface-container-high": "#e9e7eb",
+                        "on-primary-container": "#87a0cd",
+                        "surface-container-highest": "#e3e2e6",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed": "#d5e3fc",
+                        "on-secondary-container": "#57657a",
+                        "primary-fixed": "#d6e3ff",
+                        "surface-dim": "#dad9dd",
+                        "on-background": "#1a1b1e",
+                        "on-surface": "#1a1b1e",
+                        "on-tertiary-container": "#fe771b",
+                        "surface-tint": "#465f88",
+                        "primary-fixed-dim": "#aec7f7",
+                        "on-surface-variant": "#44474e",
+                        "primary-container": "#1b365d",
+                        "on-tertiary": "#ffffff",
+                        "secondary": "#515f74",
+                        "tertiary-fixed-dim": "#ffb690",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-fixed": "#0d1c2e",
+                        "on-tertiary-fixed": "#341100",
+                        "outline": "#74777f",
+                        "on-error": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "on-error-container": "#93000a",
+                        "on-primary-fixed": "#001b3d",
+                        "surface-container": "#efedf1",
+                        "on-primary-fixed-variant": "#2e476f",
+                        "secondary-fixed-dim": "#b9c7df",
+                        "surface-bright": "#faf9fd",
+                        "error": "#ba1a1a",
+                        "outline-variant": "#c4c6cf"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .glass-nav {
+            background: rgba(250, 249, 253, 0.8);
+            backdrop-filter: blur(24px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 glass-nav shadow-xl shadow-primary/5">
+<div class="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
+<div class="text-2xl font-bold tracking-tight text-primary">The Authoritative Plumber</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary font-bold border-b-2 border-primary transition-colors duration-200" href="#">Services</a>
+<a class="text-slate-600 font-medium hover:text-blue-700 transition-colors" href="#">Memberships</a>
+<a class="text-slate-600 font-medium hover:text-blue-700 transition-colors" href="#">Service Area</a>
+<a class="text-slate-600 font-medium hover:text-blue-700 transition-colors" href="#">About</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="hidden lg:block text-primary font-semibold hover:text-blue-700 transition-colors" href="tel:1-800-PLUMB">Call 1-800-PLUMB</a>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-lg font-semibold active:scale-95 transition-all shadow-lg shadow-primary/10">Become a Member</button>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative min-h-[819px] flex items-center overflow-hidden" style="background: linear-gradient(135deg, #001433 0%, #002046 50%, #1b365d 100%);">
+<!-- Background depth elements -->
+<div class="absolute inset-0 overflow-hidden pointer-events-none">
+<div class="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full opacity-10" style="background: radial-gradient(circle, #aec7f7 0%, transparent 70%);"></div>
+<div class="absolute bottom-0 -left-20 w-[400px] h-[400px] rounded-full opacity-5" style="background: radial-gradient(circle, #aec7f7 0%, transparent 70%);"></div>
+</div>
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+<div class="space-y-8">
+<span class="inline-block text-xs uppercase tracking-[0.15em] font-bold px-4 py-1.5 rounded-md" style="color: #fe771b; background: rgba(254,119,27,0.12); border: 1px solid rgba(254,119,27,0.2);">PREVENTATIVE PROTECTION</span>
+<h1 class="text-5xl lg:text-7xl font-extrabold leading-[1.08] tracking-tight text-white">
+                        Protect your home before a small plumbing issue turns into major water damage.
+                    </h1>
+<p class="text-xl leading-relaxed max-w-xl" style="color: #aec7f7;">
+                        Gain peace of mind with our professional architectural approach to plumbing maintenance. No more emergencies, just structural integrity.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="text-white px-10 py-5 rounded-lg text-lg font-bold shadow-2xl active:scale-95 transition-all" style="background: linear-gradient(135deg, #fe771b, #c45a0a); box-shadow: 0 20px 40px rgba(254,119,27,0.25);">
+                            Join Our Membership
+                        </button>
+<button class="px-10 py-5 rounded-lg text-lg font-bold transition-colors" style="color: #aec7f7; background: rgba(174,199,247,0.08); border: 1px solid rgba(174,199,247,0.2);" onmouseover="this.style.background='rgba(174,199,247,0.15)'" onmouseout="this.style.background='rgba(174,199,247,0.08)'">
+                            Explore Services
+                        </button>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 rounded-3xl blur-2xl transition-all duration-500" style="background: rgba(174,199,247,0.08);"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5]" style="box-shadow: 0 40px 80px rgba(0,0,0,0.4);">
+<img alt="Professional plumber inspecting high-end architectural systems" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" style="filter: grayscale(0.1) brightness(0.9);" data-alt="Modern high-end bathroom plumbing fixture with a professional plumber using a digital tablet for inspection in soft morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuZsD9UjnKquGRnWKNckTc1Q6e-52YY7RY-vv2MK6wB5Lzt9oOxz1bMSj-syk-CP_RuRL0VwuS_r11mqbtisbDWjRP1hi19pjfXa7rzy_krX45Nbi9CuLY9e8VTuUTzCc1W8vc4BXr3YZWd1ISfgvzxWMrWAsfl3GcYKcB9cnV3rkKJgLIx9afR17SIeR_kcq3zsFSNisQR_P2sgUwv_uOu_0mso93Dktsk-Xdb-upbFC_jr373MxnPmf2jWPkixTVbUzNlooGjTY"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Value Prop: Why It Works -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center max-w-3xl mx-auto mb-20">
+<h2 class="text-4xl font-bold text-primary mb-6">Built for Reliability</h2>
+<p class="text-lg text-on-surface-variant">We believe plumbing should be an invisible, flawless system. Our membership is designed to eliminate the 'surprise' from home ownership.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest p-10 rounded-xl space-y-4">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="security">security</span>
+<h3 class="text-xl font-bold text-primary">Structural Integrity</h3>
+<p class="text-on-surface-variant leading-relaxed">Early detection prevents catastrophic structural failures. We treat your home's water system like the vital infrastructure it is.</p>
+</div>
+<div class="bg-surface-container-lowest p-10 rounded-xl space-y-4">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="analytics">analytics</span>
+<h3 class="text-xl font-bold text-primary">Precision Monitoring</h3>
+<p class="text-on-surface-variant leading-relaxed">Data-driven insights through app support and annual report cards ensure you're never guessing about your home's health.</p>
+</div>
+<div class="bg-surface-container-lowest p-10 rounded-xl space-y-4">
+<span class="material-symbols-outlined text-4xl text-primary" data-icon="verified">verified</span>
+<h3 class="text-xl font-bold text-primary">Expert Governance</h3>
+<p class="text-on-surface-variant leading-relaxed">Member-only priority service means you have a master-level team on standby, ready to protect your investment.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- The Irresistible Stack Section -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col lg:flex-row gap-16 items-start">
+<div class="lg:w-1/3 sticky top-32">
+<span class="label-sm uppercase tracking-widest text-primary font-bold">The Core Benefits</span>
+<h2 class="text-4xl font-bold text-primary mt-4 mb-8">The 'Irresistible' Stack</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed">A comprehensive list of high-value services included to keep your plumbing system in peak condition year-round.</p>
+<div class="mt-12 bg-tertiary-container/5 p-8 rounded-xl border border-tertiary-container/10">
+<p class="text-tertiary font-bold italic">"An ounce of prevention is worth a gallon of water damage prevention."</p>
+</div>
+</div>
+<div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- 10 Services -->
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Annual wellness check</h4>
+<p class="text-sm text-on-surface-variant">A comprehensive top-to-bottom inspection of your entire plumbing infrastructure.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">App setup</h4>
+<p class="text-sm text-on-surface-variant">Professional configuration of your smart water monitoring systems for real-time alerts.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Priority service</h4>
+<p class="text-sm text-on-surface-variant">Jump to the front of the line for all scheduled appointments and unforeseen needs.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Water heater safety inspection</h4>
+<p class="text-sm text-on-surface-variant">Critical safety check to ensure your water heater is operating efficiently and safely.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Toilet leak dye test</h4>
+<p class="text-sm text-on-surface-variant">Detection of silent leaks that can waste thousands of gallons of water per year.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Pressure check</h4>
+<p class="text-sm text-on-surface-variant">Testing for high water pressure that can stress pipes and cause premature fixture failure.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Shutoff valve tagging</h4>
+<p class="text-sm text-on-surface-variant">Clearly identifying all main and local shutoff valves for emergency preparedness.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Member-only visual leak review</h4>
+<p class="text-sm text-on-surface-variant">Specialized review focused on identifying hard-to-spot visual indicators of pipe fatigue.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Annual plumbing report card</h4>
+<p class="text-sm text-on-surface-variant">A detailed health report of your home's system with professional recommendations.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg hover:bg-surface-container-high transition-colors">
+<h4 class="font-bold text-primary mb-2">Small repair credit</h4>
+<p class="text-sm text-on-surface-variant">An annual credit applicable toward any necessary maintenance or repairs found during inspection.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Membership Tiers -->
+<section class="py-32 bg-primary">
+<div class="max-w-7xl mx-auto px-8 text-center mb-20">
+<h2 class="text-4xl font-bold text-on-primary mb-4">Choose Your Level of Protection</h2>
+<p class="text-on-primary-container text-lg">Scalable protection plans designed for every type of property.</p>
+</div>
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Basic -->
+<div class="bg-primary-container/50 backdrop-blur-md p-10 rounded-2xl border border-primary-fixed-dim/10 text-on-primary flex flex-col">
+<div class="mb-8">
+<h3 class="text-2xl font-bold mb-4">Basic Monitor Plan</h3>
+<p class="text-on-primary-container text-sm">Essential monitoring for modern homes.</p>
+</div>
+<ul class="space-y-4 mb-12 flex-grow">
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> App support</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Leak alert response</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Annual wellness check</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Member pricing</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Priority scheduling</li>
+</ul>
+<button class="w-full py-4 bg-surface-container-lowest text-primary font-bold rounded-lg hover:bg-primary-fixed transition-colors">Get Started</button>
+</div>
+<!-- Protection (Best Seller) -->
+<div class="relative bg-surface-container-lowest p-10 rounded-2xl border-4 border-tertiary-container text-primary flex flex-col scale-105 shadow-2xl">
+<div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-tertiary-container text-on-tertiary-container px-6 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest">Best Seller</div>
+<div class="mb-8">
+<h3 class="text-2xl font-bold mb-4">Protection Plan</h3>
+<p class="text-on-surface-variant text-sm">Comprehensive preventative coverage.</p>
+</div>
+<ul class="space-y-4 mb-12 flex-grow">
+<li class="flex items-center gap-3 text-sm font-semibold">Everything in Basic +</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-tertiary-container" data-icon="check_circle">check_circle</span> Pressure test</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-tertiary-container" data-icon="check_circle">check_circle</span> Toilet leak testing</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-tertiary-container" data-icon="check_circle">check_circle</span> Report card</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-tertiary-container" data-icon="check_circle">check_circle</span> Waived dispatch fee</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-tertiary-container" data-icon="check_circle">check_circle</span> Maintenance credit</li>
+</ul>
+<button class="w-full py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg shadow-xl active:scale-95 transition-all">Protect My Home</button>
+</div>
+<!-- Premium -->
+<div class="bg-primary-container/50 backdrop-blur-md p-10 rounded-2xl border border-primary-fixed-dim/10 text-on-primary flex flex-col">
+<div class="mb-8">
+<h3 class="text-2xl font-bold mb-4">Premium Protection</h3>
+<p class="text-on-primary-container text-sm">Ultimate care for discerning owners.</p>
+</div>
+<ul class="space-y-4 mb-12 flex-grow">
+<li class="flex items-center gap-3 text-sm font-semibold">Everything in Protection +</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Auto shutoff support</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Faster priority</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Water heater inspection</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Discounted drain service</li>
+<li class="flex items-center gap-3 text-sm"><span class="material-symbols-outlined text-primary-fixed-dim" data-icon="check_circle">check_circle</span> Semiannual checkups</li>
+</ul>
+<button class="w-full py-4 bg-surface-container-lowest text-primary font-bold rounded-lg hover:bg-primary-fixed transition-colors">Select Premium</button>
+</div>
+</div>
+</section>
+<!-- Transparency Section -->
+<section class="py-24 bg-surface-container-low border-y border-outline-variant/10">
+<div class="max-w-3xl mx-auto px-8 text-center">
+<span class="label-sm uppercase tracking-widest text-on-surface-variant font-bold">Transparency Matters</span>
+<h2 class="text-3xl font-bold text-primary mt-4 mb-6">What Not to Include</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                    At The Authoritative Plumber, we prioritize permanent quality over quick fixes. We focus on prevention rather than offering "free" emergency calls or snaking services that often mask deeper issues. By concentrating on structural health and proactive maintenance, we ensure your home is genuinely protected, not just temporarily patched. Our goal is to maintain the highest standard of craftsmanship for our members.
+                </p>
+</div>
+</section>
+<!-- Upsells Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+<div>
+<h2 class="text-3xl font-bold text-primary">Smart ways to enhance your protection</h2>
+<p class="text-on-surface-variant mt-2">Professional upgrades to complement your membership.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="bg-surface-container p-8 rounded-xl border-b-4 border-primary">
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="water_drop">water_drop</span>
+<h4 class="font-bold text-primary mb-2">Water heater services</h4>
+<p class="text-sm text-on-surface-variant">Optimization and descaling to extend lifespan.</p>
+</div>
+<div class="bg-surface-container p-8 rounded-xl border-b-4 border-primary">
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="compress">compress</span>
+<h4 class="font-bold text-primary mb-2">PRV replacement</h4>
+<p class="text-sm text-on-surface-variant">Pressure Reducing Valve installation for system safety.</p>
+</div>
+<div class="bg-surface-container p-8 rounded-xl border-b-4 border-primary">
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="settings_input_component">settings_input_component</span>
+<h4 class="font-bold text-primary mb-2">Smart Auto-Shutoff</h4>
+<li class="text-sm text-on-surface-variant">Automatic protection when leaks are detected.</li>
+</div>
+<div class="bg-surface-container p-8 rounded-xl border-b-4 border-primary">
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="kitchen">kitchen</span>
+<h4 class="font-bold text-primary mb-2">Filtration Systems</h4>
+<p class="text-sm text-on-surface-variant">Whole-home water purification installations.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Strong Pitch / Final CTA -->
+<section class="py-32 bg-surface-container-low relative overflow-hidden">
+<div class="absolute inset-0 bg-primary/5 opacity-50"></div>
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<div class="bg-surface-container-lowest p-12 lg:p-20 rounded-3xl shadow-2xl flex flex-col lg:flex-row items-center gap-12 border border-outline-variant/10">
+<div class="lg:w-2/3 space-y-6">
+<h2 class="text-4xl font-extrabold text-primary leading-tight">
+                            Protect your home before a small plumbing issue turns into major water damage. 
+                        </h2>
+<p class="text-xl text-on-surface-variant leading-relaxed">
+                            Your membership includes smart water monitoring support, priority service, an annual plumbing wellness check, leak-prevention testing, and preferred repair pricing.
+                        </p>
+</div>
+<div class="lg:w-1/3 flex justify-center">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-12 py-6 rounded-lg text-xl font-bold shadow-2xl shadow-primary/20 hover:scale-105 active:scale-95 transition-all">
+                            Join Now
+                        </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-950 w-full border-t border-slate-200">
+<div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+<div>
+<div class="text-xl font-bold text-blue-900 mb-6">The Authoritative Plumber</div>
+<p class="text-slate-500 text-sm leading-relaxed">Defining the standard of plumbing excellence through architectural integrity and proactive care.</p>
+</div>
+<div>
+<h5 class="text-xs uppercase tracking-widest text-blue-900 font-bold mb-6">Services</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-500 hover:underline hover:text-blue-800 transition-colors" href="#">Residential Services</a></li>
+<li><a class="text-slate-500 hover:underline hover:text-blue-800 transition-colors" href="#">Commercial Plumbing</a></li>
+<li><a class="text-slate-500 hover:underline hover:text-blue-800 transition-colors" href="#">Emergency Contact</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-xs uppercase tracking-widest text-blue-900 font-bold mb-6">Company</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-500 hover:underline hover:text-blue-800 transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-500 hover:underline hover:text-blue-800 transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-slate-200">
+<p class="text-slate-500 text-xs text-center">© 2024 The Authoritative Plumber. Structural Integrity Guaranteed.</p>
+</div>
+</footer>
+</body></html>
