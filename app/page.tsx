@@ -1,21 +1,27 @@
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
-import Features from '@/components/Features';
-import HowItWorks from '@/components/HowItWorks';
-import SocialProof from '@/components/SocialProof';
-import WaitlistForm from '@/components/WaitlistForm';
+import WhyItWorks from '@/components/WhyItWorks';
+import IrresistibleStack from '@/components/IrresistibleStack';
+import MembershipTiers from '@/components/MembershipTiers';
+import Transparency from '@/components/Transparency';
+import Upsells from '@/components/Upsells';
+import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <>
       <Nav />
-      <Hero />
-      <Features />
-      <HowItWorks />
-      <SocialProof />
-      <WaitlistForm />
+      <main className="pt-24">
+        <Hero />
+        <WhyItWorks />
+        <IrresistibleStack />
+        <MembershipTiers />
+        <Transparency />
+        <Upsells />
+        <FinalCTA />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }

@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:3001)",
+      "Bash(python3:*)",
+      "mcp__magic__21st_magic_component_inspiration",
+      "Bash(grep:*)",
+      "Bash(git:*)",
+      "mcp__magic__21st_magic_component_builder",
+      "Bash(xxd)",
+      "Bash(sudo npm:*)",
+      "Bash(npx wrangler:*)"
     ]
   }
 }
